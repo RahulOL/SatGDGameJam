@@ -90,15 +90,55 @@ position = Vector2( -1.11759e-07, -0.000457481 )
 scale = Vector2( 0.495667, 0.657775 )
 shape = SubResource( 2 )
 
+[node name="MeshInstance2D11" type="MeshInstance2D" parent="."]
+position = Vector2( 5070, -1326 )
+rotation = -1.76953
+scale = Vector2( -48.6659, -57.819 )
+mesh = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeshInstance2D11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D11/StaticBody2D"]
+position = Vector2( -1.11759e-07, -0.000457481 )
+scale = Vector2( 0.495667, 0.657775 )
+shape = SubResource( 2 )
+
+[node name="MeshInstance2D9" type="MeshInstance2D" parent="."]
+position = Vector2( 4535, -1333 )
+rotation = -1.76953
+scale = Vector2( -48.6659, -57.819 )
+mesh = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeshInstance2D9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D9/StaticBody2D"]
+position = Vector2( -1.11759e-07, -0.000457481 )
+scale = Vector2( 0.495667, 0.657775 )
+shape = SubResource( 2 )
+
 [node name="MeshInstance2D7" type="MeshInstance2D" parent="."]
-position = Vector2( 4232, -1305 )
-rotation = -1.55848
+position = Vector2( 4228, -1343 )
+rotation = -1.38457
 scale = Vector2( -48.5821, -57.7194 )
 mesh = SubResource( 1 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="MeshInstance2D7"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D7/StaticBody2D"]
+position = Vector2( -1.19209e-07, -0.000457764 )
+rotation = -9.39464e-10
+scale = Vector2( 0.495667, 0.657775 )
+shape = SubResource( 2 )
+
+[node name="MeshInstance2D10" type="MeshInstance2D" parent="."]
+position = Vector2( 4810, -1335 )
+rotation = -1.38457
+scale = Vector2( -48.5821, -57.7194 )
+mesh = SubResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MeshInstance2D10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D10/StaticBody2D"]
 position = Vector2( -1.19209e-07, -0.000457764 )
 rotation = -9.39464e-10
 scale = Vector2( 0.495667, 0.657775 )
