@@ -144,18 +144,5 @@ rotation = -9.39464e-10
 scale = Vector2( 0.495667, 0.657775 )
 shape = SubResource( 2 )
 
-[node name="MeshInstance2D8" type="MeshInstance2D" parent="."]
-position = Vector2( 8927.45, -1049.16 )
-rotation = -1.7076
-scale = Vector2( -143.227, -170.165 )
-mesh = SubResource( 1 )
-
-[node name="StaticBody2D" type="StaticBody2D" parent="MeshInstance2D8"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D8/StaticBody2D"]
-position = Vector2( -1.11759e-07, -0.000457481 )
-scale = Vector2( 0.495667, 0.657775 )
-shape = SubResource( 2 )
-
 [node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
 position = Vector2( -1209, -1208 )

@@ -39,3 +39,8 @@ func _physics_process(delta):
 		if is_on_floor():
 			velocity.y = -jump_speed
 
+	
+
+
+func _on_Node2D3_body_entered(body):
+	get_tree().change_scene("res://level 3.tscn")
